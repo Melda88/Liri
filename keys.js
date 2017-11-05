@@ -11,3 +11,11 @@ var twitterKeys = new Twitter({
 
 module.exports = twitterKeys;
 
+var Spotify = require ('spotify');
+
+var spotifyKeys = new Spotify({
+  consumer_key: 'c1a2409d98074aa5ae6372b1f4f1692c',
+  consumer_secret: 'd3fbf8c5a721475c99958df47cc2535d',
+});
+
+module.exports = spotifyKeys;
